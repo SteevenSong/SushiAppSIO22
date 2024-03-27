@@ -1,0 +1,9 @@
+<div  class="card  p-2 m-2 clickable" >
+    <img    data-bs-toggle="modal" data-bs-target="#exampleModal" [src]="'http://localhost:8080/api/image/' + box?.image" class="card-img-top" alt="">
+    <div class="card-body">
+                <h4>{{ box?.nom }}</h4>
+        <h5>{{ box?.prix }}$</h5><a><button (click)="onDelete(box!)">-</button></a><span>{{ numero }}</span> 
+        <a><button (click)="onAjout(box! )">+</button></a>
+        <button (click)="ajouterAuPanier(box!)">Ajouter au panier</button>
+    </div>
+</div>

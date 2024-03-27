@@ -1,0 +1,18 @@
+<body>
+    <div class="container">
+        <h1>Panier</h1>
+        <div *ngFor="let ligne of lignesPanier" class="panier-ligne">
+            <div class="nom-box">{{ ligne.uneBox.nom }}</div>
+            <div class="quantite">
+                Quantité: 
+                <a><button (click)="onDelete(ligne.uneBox)">-</button></a>
+                <span>{{ ligne.quantite }}</span> 
+                <a><button (click)="onAjout(ligne.uneBox)">+</button></a>
+            </div>
+            <div class="prix">Prix : {{ ligne.uneBox.prix * ligne.quantite }}$</div>
+        </div>
+        <div class="total">Total: {{ calculerPrixTotal() }}$</div>
+         <button class="valider-panier" (click)="validerPanier()">Valider Panier</button>
+        <button class="vider-panier" (click)="clearPanier()">Vider le panier</button>
+    </div>
+</body>

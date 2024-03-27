@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    background-image: url(../../../assets/backgroundsushi.png);
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.panier-ligne {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.nom-box {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quantite {
+    margin-top: 5px;
+}
+
+.prix {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #666;
+}
+
+.total {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.vider-panier {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.vider-panier:hover {
+    background-color: rgb(61, 47, 255);
+}
+
+.valider-panier {
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.valider-panier:hover {
+    background-color: burlywood;
+}

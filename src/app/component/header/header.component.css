@@ -1,0 +1,10 @@
+.navbar {
+    padding-top: 10px; /* Ajustement du padding */
+    padding-bottom: 10px; /* Ajustement du padding */
+}
+
+.nav-pills .nav-link {
+    padding-top: 5px; /* Ajustement du padding */
+    padding-bottom: 5px; /* Ajustement du padding */
+    font-size: 18px; /* Ajustement de la taille de la police */
+}
