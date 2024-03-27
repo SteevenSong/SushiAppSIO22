@@ -30,10 +30,10 @@ Dans un premier temps, nous avons réalisé une maquette sur Figma, cette maquet
 IMPORTANT: Lien Maquette sur Figma : https://www.figma.com/file/eApxfuprNF8OU5HlIO43KR/Untitled?type=design&node-id=6%3A2&mode=design&t=5zl2LdaHbOhCKr6Y-1
 
 === *b) Cas utilisateur* +
-image::C:\Users\SongS\Desktop\SushiAppSIO22\adoc\image\DiagrammeSushiApp.png[]
+image::C:\Users\SongS\Desktop\SushiAppSIO22\adoc\image\DiagrammeSushiApp.PNG[]
 
 === *c) Diagramme Json* +
-image::C:\Users\SongS\Desktop\SushiAppSIO22\adoc\image\Json.png[]
+image::C:\Users\SongS\Desktop\SushiAppSIO22\adoc\image\Json.PNG[]
 
 == *I. Réalisation du site* +
 
@@ -104,7 +104,7 @@ Dans ce code j'ai crée 2 méthodes, getboxes() et onDetails() pour pouvoir comm
 
 *Resulat*
 
-image::C:\Users\SongS\Desktop\SushiAppSIO22\adoc\image\detail.png[]
+image::C:\Users\SongS\Desktop\SushiAppSIO22\adoc\image\detail.PNG[]
 
 == *II. Le panier* +
 
@@ -226,7 +226,7 @@ image::C:\Users\SongS\Desktop\SushiAppSIO22\adoc\image\panier.png[]
 
 *Résultat*
 
-image::C:\Users\SongS\Desktop\ProjectSushiFast-main\adoc\image\confidentialite.png[]
+image::C:\Users\SongS\Desktop\ProjectSushiFast-main\adoc\image\confidentialite.PNG[]
 
 Nous avons fais une page de confidentialité simple avec HTML & CSS. Cette page de confidentialité est relié a tous les autres page.
 
