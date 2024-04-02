@@ -226,7 +226,7 @@ image::adoc\image\panier.png[]
 
 *Résultat*
 
-image::C:\Users\SongS\Desktop\ProjectSushiFast-main\adoc\image\confidentialite.PNG[]
+image::adoc\image\confidentialite.PNG[]
 
 Nous avons fais une page de confidentialité simple avec HTML & CSS. Cette page de confidentialité est relié a tous les autres page.
 
